@@ -1,0 +1,111 @@
+# ===================================
+# Ignore files for ReactJS (bhpt-shop-client)
+# ===================================
+
+# Node.js dependencies and build files
+bhpt-shop-client/node_modules/
+bhpt-shop-client/build/
+
+# Environment files
+bhpt-shop-client/.env
+bhpt-shop-client/.env.local
+bhpt-shop-client/.env.development.local
+bhpt-shop-client/.env.test.local
+bhpt-shop-client/.env.production.local
+
+# Log files
+bhpt-shop-client/npm-debug.log*
+bhpt-shop-client/yarn-debug.log*
+bhpt-shop-client/yarn-error.log*
+
+# Temporary files
+bhpt-shop-client/.cache/
+
+# ===================================
+# Ignore files for Spring Boot (bhpt-shop-server)
+# ===================================
+
+# Maven or Gradle build directories
+bhpt-shop-server/target/
+bhpt-shop-server/out/
+bhpt-shop-server/build/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# HELP.md file
+bhpt-shop-server/HELP.md
+
+# Compiled Java binaries
+bhpt-shop-server/*.jar
+bhpt-shop-server/*.war
+bhpt-shop-server/*.ear
+
+# Environment files
+bhpt-shop-server/.env
+bhpt-shop-server/.env.local
+bhpt-shop-server/.env.development.local
+bhpt-shop-server/.env.test.local
+bhpt-shop-server/.env.production.local
+
+# Log files
+bhpt-shop-server/spring.log
+bhpt-shop-server/*.log
+
+# Spring Tool Suite (STS) specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===================================
+# OS-specific and Editor/IDE files
+# ===================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+bhpt-shop-server/build/
+bhpt-shop-client/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VSCode
+.vscode/
+bhpt-shop-client/.vscode/
+bhpt-shop-server/.vscode/
+
+# ===================================
+# Git merge/diff files and other temp files
+# ===================================
+
+# Merge files
+*.diff
+*.patch
+*.orig
+*.rej
+
+# Swap files
+*.swo
+*.swp
